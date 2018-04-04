@@ -1,0 +1,117 @@
+<?php
+if($_POST["message"]) {
+    mail("metillwick@unomaha.edu, ctienken@unomaha.edu, tmister2009@gmail.com", "Form to email message", $POST["message"], "From: an@email.address");
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110451657-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110451657-1');
+</script>
+
+  <meta charset="UTF-8" />
+  <title>Nebraska Parkour</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/LocationsEvents.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+          <a href="index.html"><img src="images/NEPK.png" id="navlogo"></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="LessonsClasses.html">LESSONS/CLASSES</a></li>
+          <li><a href="LocationsEvents.html">LOCATIONS/EVENTS</a></li>
+          <li><a href="Jobs.html">JOBS</a></li>
+          <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="background">
+</div>
+
+
+<div class="totalwrap">
+  <div class="wrap1">
+    <h1>Want to meet up?</h1>
+      <p>During the warmer seasons, we hold weekly events according to our schedules and the weather.</br>Throughout the year, we meet at gymnastic facilities to train inside. See our <a href="LessonsClasses.html">Gym Locations</a>!</br></br>Check out our Facebook page for when we meet up! See more info according to your area!</br>NEPK is managed in Omaha. Lincoln Parkour is the referred group in that area.</p>
+    </div>
+
+    <div class="wrap2">
+      <h2><a href="https://www.facebook.com/groups/81230653088/" class="City">Omaha</a><a href="https://www.facebook.com/groups/2200990694/" class="City"> Lincoln</a></h2>
+    </div>
+
+    <div class="wrap3">
+      <h2>Not seeing anyone near you?</h2>
+      <p>Don't be sad. We feel you. Nebraska can be pretty spread out, but we might have a couple contacts depending on where you live.</br>If not, we can help get you started by sending you tutorials, videos, safety instructions, and more!</br>Just fill out a <a href="Contact.html">Contact Form</a>!</p>
+    </div>
+</div>
+
+
+
+
+</body>
+
+<footer>
+  <div class="container2 text-center">
+      <hr />
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="col-md-4">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="LessonsClasses.html">Lessons/Classes</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="LocationsEvents.html">Locations/Events</a></li>
+            <li><a href="Jobs.html">Jobs</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="Contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+      <div class="row">
+          <div class="col-lg-12">
+              <ul class="nav nav-pills nav-justified">
+                  <li><a>© 2017 Nebraska Parkour</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</footer>
+</html>
