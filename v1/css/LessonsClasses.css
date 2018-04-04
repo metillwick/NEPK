@@ -1,0 +1,170 @@
+<style>
+
+body {
+  overflow-x: hidden;
+}
+
+#navlogo {
+  height: 7rem;
+  width: auto;
+  display: inline;
+  margin: -1.5rem;
+  float: left;
+}
+
+.background {
+  background: url("../images/pic19.jpg") center no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 80%;
+  height: 100%;
+  min-width: 70%;
+  top: 0;
+  left: 10%;
+  z-index: -1;
+  -webkit-filter: opacity(.8);
+  filter: opacity(.5);
+}
+
+h1, h2 {
+  color: #0062FF;
+  font-family: Ubuntu, sans-serif;
+}
+
+p {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 600;
+}
+
+.wrap1, .wrap2, .wrap3 {
+  width: 80%;
+  margin: auto;
+  font-family: Ubuntu, sans-serif;
+  vertical-align: center;
+  overflow: auto;
+}
+
+.wrap1 {
+  text-align: center;
+}
+
+.wrap2 {
+  border-top: black solid 1px;
+  margin-top: 1%;
+  overflow: hidden;
+}
+
+.wrap3 {
+  border-top: black solid 1px;
+  margin-top: 3%;
+}
+
+.wrap2 h2, .wrap3 h2 {
+  margin-left: 6%;
+}
+
+.gym1 {
+  width: 100%;
+  min-width: 20rem;
+  height: auto;
+  margin: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.gym1photo {
+  border-radius: 3rem;
+  border: solid 3px grey;
+  object-fit: contain;
+  display: inline-block;
+  width: 30%;
+  max-height: 30rem;
+}
+
+
+
+.gym1desc {
+  color: black;
+  font-size: 125%;
+  display: inline-block;
+  width: 70%;
+  max-width: 80%;
+  padding: 10rem;
+  text-align: center;
+}
+
+.img404 {
+  height: 50%;
+  width: 100%;
+  margin-top: 6.5rem;
+}
+
+.lessons {
+  width: 100%;
+  min-width: 20rem;
+  height: auto;
+  margin: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.lessonsphoto {
+  border-radius: 3rem;
+  border: solid 3px grey;
+  overflow: hidden;
+  position: relative;
+  margin:0;
+  display: inline-block;
+  width: 30%;
+  min-width: 20%;
+  max-width: 30%;
+  max-height: 100%;
+}
+
+
+.lessonsdesc{
+  color: black;
+  font-size: 125%;
+  font-weight: 600;
+  display: inline-block;
+  width: 70%;
+  max-width: 80%;
+  padding: 10rem;
+  text-align: center;
+
+}
+
+.divimg {
+  width: 100%;
+  object-fit: contain;
+  vertical-align: center;
+}
+
+.divimg1 {
+  width: 100%;
+  object-fit: contain;
+  vertical-align: center;
+  margin-top: -3rem;
+}
+
+.divimg2 {
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  vertical-align: middle;
+  bottom: -9rem;
+}
+
+.gym1photo, .lessonsphoto {
+  margin-left: 3%;
+}
+.container2 {
+  width: 80%;
+  margin: auto;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+}
+</style>
