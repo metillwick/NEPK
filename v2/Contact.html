@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nebraska Parkour</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/Contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> <!-- makes image responsive-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+          <a href="index.html"><img src="images/NEPK.png" id="navlogo"></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="LessonsClasses.html">LESSONS/CLASSES</a></li>
+          <li><a href="LocationsEvents.html">MEETUPS</a></li>
+          <li><a href="Jobs.html">JOBS</a></li>
+          <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="background">
+</div>
+
+<div class="contactcontainer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-2 col-md-8">
+        <form id="contact" action="contact.php" method="POST">
+          <div class="hue">
+            <h3>Contact Us!</h3>
+            <h4>Our goal is to build the parkour community. Whatever you're interested in, so are we. Shoot us a message and we'll get back to you soon!</h4>
+          </div>
+          <fieldset>
+            <input placeholder="Your name" type="text" name="name" tabindex="1" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" name="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number" type="text" name="phone" tabindex="3" optional>
+          </fieldset>
+          <fieldset>
+            <select name="interest" tabindex="4" required>
+              <option value="" hidden><p id="defaultfont">Interest</p></option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Gyms and Classes">Gyms and Classes</option>
+              <option value="Private Lessons">Private Lessons</option>
+              <option value="Apply to be a Coach">Apply to be a Coach</option>
+              <option value="Meetups and Events">Meetups and Events</option>
+              <option value="Other">Other</option>
+            </select>
+          </fieldset>
+          <fieldset>
+            <textarea name="message" tabindex="5" required>
+            </textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+
+      </div>
+    </div>
+</div>
+
+  <footer>
+    <div class="footWrap text-center">
+      <hr />
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="col-md-4">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="LessonsClasses.html">Lessons/Classes</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="LocationsEvents.html">Locations/Events</a></li>
+              <li><a href="Jobs.html">Jobs</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="nav nav-pills nav-justified">
+            <li><a>© 2017 Nebraska Parkour</a></li>
+          </ul>
+        </div>
+      </div>
+  </footer>
+</div>
+<script type="text/javascript" src="./js/Contact.js"></script>
+</body>
+
+
+
+</html>
