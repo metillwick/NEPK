@@ -1,0 +1,80 @@
+<style>
+
+body {
+  overflow-x: hidden;
+}
+
+#navlogo {
+  height: 7rem;
+  width: auto;
+  display: inline;
+  margin: -1.5rem;
+  float: left;
+}
+
+a {
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+.background {
+  background: url("../images/pic19.jpg") center no-repeat;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+  -webkit-filter: opacity(.8);
+  filter: opacity(.5);
+}
+
+h1, h2 {
+  color: #0062FF;
+  font-family: Ubuntu, sans-serif;
+}
+
+p {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 600;
+  font-size: 125%;
+}
+
+.wrap1, .wrap2, .wrap3 {
+  margin: auto;
+  font-family: Ubuntu, sans-serif;
+  vertical-align: center;
+  overflow: auto;
+}
+
+.wrap1 {
+  text-align: center;
+  padding-bottom: 3rem;
+  border-bottom: 1px black solid;
+}
+
+.panel {
+  background-color: rgba(255,255,255, 0.5)!important;
+}
+
+.panel-heading {
+  background-color: rgba(51,122,183, 0.7)!important;
+
+}
+
+.footWrap {
+  margin: auto;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.footWrap a {
+  color: #fff!important;
+}
+
+body {
+  overflow-x: hidden;
+  padding-top: 70px;
+}
+
+</style>

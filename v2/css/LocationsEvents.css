@@ -1,0 +1,113 @@
+<style>
+
+body {
+  overflow-x: hidden;
+}
+
+#navlogo {
+  height: 7rem;
+  width: auto;
+  display: inline;
+  margin: -1.5rem;
+  float: left;
+}
+
+.background {
+  background: url("../images/pic12.jpg") center no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  -webkit-filter: opacity(.8);
+  filter: opacity(.5);
+}
+
+.wrap1 {
+  color: black;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 125%;
+  text-align: left;
+  margin: auto;
+  margin-top: -2rem;
+  padding: 4rem;
+  padding-bottom: 2rem;
+}
+
+a:nth-child(1) {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: auto;
+  padding: 6rem;
+  text-decoration: none!important;
+  color: black!important;
+}
+
+.link {
+  text-decoration: none;
+}
+a:last-child {
+  padding: 0;
+}
+.col-md-3 {
+  padding: 0!important;
+}
+.wrap2 {
+  text-align: center;
+  font-size: 110%;
+  font-weight: 500;
+  padding: 10px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+.wrap2 p {
+  font-size: 110%;
+}
+.wrap4 p {
+  font-size: 110%;
+}
+
+.wrap4 {
+  border: 2px solid black;
+  text-align: center;
+  font-size: 110%;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.wrap3 {
+  color: #000;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  /* margin: auto; */
+  /* padding: 1rem 3rem 5rem 3rem; */
+  font-size: 110%;
+  /* margin-bottom: -3rem; */
+}
+
+.panel {
+  background-color: rgba(255,255,255, 0.5)!important;
+  margin-top: 3rem;
+}
+
+.footWrap {
+  margin: auto;
+  background-color: black;
+  opacity: 0.8;
+}
+.footWrap a{
+  color: #fff!important;
+}
+
+body {
+  overflow-x: hidden;
+  padding-top: 70px;
+}
+
+</style>
