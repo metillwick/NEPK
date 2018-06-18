@@ -1,5 +1,4 @@
 # Nebraska Parkour (NEPK) 
-www.nebraskaparkour.com
 
 Version 1 and 2 of the NEPK website. Version 1 is straight HTML, CSS, and is fully built to be mobile friendly. Version 2 uses Bootstrap, JS, and jQuery. Both versions uses PHP to collect the form data and send it to email.
 
