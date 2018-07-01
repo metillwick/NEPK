@@ -21,7 +21,7 @@ Instagram: https://www.instagram.com/coreymotley/
 
 Version 1 Screenshots
 
-![Home Page](v1/screenshots/screenshot0.jpg?raw=true "Home Page")
+![Home Page](v1/screenshots/screenshot0.JPG?raw=true "Home Page")
 ![Home Page 2](v1/screenshots/screenshot1.jpg?raw=true "Home Page 2")
 ![Locations Page](v1/screenshots/screenshot3.jpg?raw=true "Locations Page")
 ![Jobs Page](v1/screenshots/screenshot4.jpg?raw=true "Jobs Page")
