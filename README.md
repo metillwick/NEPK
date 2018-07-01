@@ -18,3 +18,11 @@ Most of the photos used in both versions belong to professional photographer Cor
 
 Website/Blog: https://coreymotley.wordpress.com/
 Instagram: https://www.instagram.com/coreymotley/
+
+Version 1 Screenshots
+
+![Home Page](screenshots/screenshot0.jpg?raw=true "Home Page")
+![Home Page 2](screenshots/screenshot1.jpg?raw=true "Home Page 2")
+![Locations Page](screenshots/screenshot3.jpg?raw=true "Locations Page")
+![Jobs Page](screenshots/screenshot4.jpg?raw=true "Jobs Page")
+![Contact Page](screenshots/screenshot5.jpg?raw=true "Contact Form")
